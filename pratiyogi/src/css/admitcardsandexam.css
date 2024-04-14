@@ -1,0 +1,86 @@
+.section {
+    /* margin: 20px; */
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+.section h2 {
+    margin-bottom: -40px;
+}
+.ex {
+    display: flex;
+    justify-content: center;
+}
+  
+  .rectangle-box {
+    margin-top: 38px;
+    width: 300px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .rectangle-box h2 {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .rectangle-box ul {
+    list-style: none;
+    padding: 0;
+    /* text-align: center;  */
+  }
+  
+  .rectangle-box li {
+    margin-bottom: 10px;
+  }
+  
+  .rectangle-box a {
+    font-family: Arial, sans-serif;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .rectangle-box a:hover {
+    color: #0056b3;
+  }
+  
+  .exam-details {
+    margin: 10px
+  }
+
+  .dropdown-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+  
+  .dropdown {
+    margin: 10px;
+    border-radius: 10px;
+    /* padding: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .month-name {
+    font-weight: bold;
+  }
+
+  .MonthDetail {
+    margin-top: 100px;
+  }
+  
+  .arrow {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
